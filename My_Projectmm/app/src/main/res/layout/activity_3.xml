@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to another Activity page"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/id_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back Activity2"
+        android:layout_marginTop="40dp"
+        />
+
+       <TextView
+           android:id="@+id/Dec_tv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Decrement the value: 0"
+           android:layout_gravity="center"
+           android:layout_marginTop="40dp"
+           android:textSize="25dp"
+           />
+
+    <Button
+        android:id="@+id/id_decre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decrement -1"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+
+     <Button
+         android:id="@+id/id_edit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="50dp"
+         android:layout_gravity="center"
+         android:text="Go to EdititextView"
+         />
+
+    <Button
+        android:id="@+id/id_passing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity_Passingdate"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>

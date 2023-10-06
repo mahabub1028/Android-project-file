@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fovorites_empty">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/himu"
+        android:layout_width="match_parent"
+        android:layout_height="110"
+        android:text="My Cart "
+        android:textColor="#FFFFF0 "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#FF7F50 "
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/fovorites_empty1_image"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="50dp"
+        android:text="No Product "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pp1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="You haven`t added any product "
+        android:textSize="19dp"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/pp10"
+        android:layout_width="320"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="170dp"
+        android:text="Start Shopping"
+        android:textColor="#FFFFF0"
+        android:background="#FF7F50"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fetchdata_Retrofit</string>
+    <string name="https_jsonplaceholder_typicode_com">https://jsonplaceholder.typicode.com/</string>
+</resources>

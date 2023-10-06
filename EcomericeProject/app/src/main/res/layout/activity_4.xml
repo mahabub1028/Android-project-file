@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_4">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/himu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="28dp"
+        android:text="Skip"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background=""
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="160dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:layout_marginTop="50dp"
+        android:text="Let`s Celebrate "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginStart="100dp"
+        android:textColor="#000000"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pp1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="Celebrate every shopping and get the"
+        android:textSize="16dp"
+        android:layout_marginStart="45dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@id/mm2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="best quality product"
+        android:textSize="16dp"
+        android:layout_marginStart="110"
+        android:layout_marginTop="5dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/bb2"
+        android:layout_width="320"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mm2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"
+        android:text="Continue"
+        android:textColor="#FFFFF0"
+        android:background="#FF7F50"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bb2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:textStyle="bold"
+        android:background="#FFFFF0"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

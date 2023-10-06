@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Support">
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/chnage_pass_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text=" Would you like to tell us what happened? "
+        android:textSize="16dp"
+        android:textColor="#FF7F50  "
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pp2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Full Name "
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#000000"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@id/pp5"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toBottomOf="@id/pp4"
+        app:layout_constraintStart_toStartOf="@id/pp4"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:background="#f2f2f2"
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pp5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="Email"
+        android:textSize="17dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#000000"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@id/pp7"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        app:layout_constraintTop_toBottomOf="@id/pp6"
+        app:layout_constraintStart_toStartOf="@id/pp6"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:background="#f2f2f2"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pp8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:text=" Message"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pp7" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@id/pp9"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="#f2f2f2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/pp8"
+
+        app:layout_constraintTop_toBottomOf="@id/pp8" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/pp10"
+        android:layout_width="320"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pp9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="Submit"
+        android:textSize="17dp"
+        android:textColor="#FFFFF0"
+        android:background="#FF7F50"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

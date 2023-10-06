@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase Upload Image</string>
+    <string name="getReference">Uploads</string>
+</resources>

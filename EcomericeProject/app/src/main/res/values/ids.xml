@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pp2" type="id" />
+    <item name="mm2" type="id">mm2</item>
+    <item name="bb2" type="id">bb2</item>
+    <item name="pp3" type="id">pp3</item>
+    <item name="pp4" type="id" />
+    <item name="pp5" type="id" />
+    <item name="pp6" type="id" />
+    <item name="pp7" type="id" />
+    <item name="pp8" type="id" />
+    <item name="pp9" type="id" />
+    <item name="pp10" type="id" />
+    <item name="pp11" type="id" />
+    <item name="maha2" type="id" />
+    <item name="himu" type="id" />
+</resources>

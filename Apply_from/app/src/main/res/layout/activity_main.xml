@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply From Page"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="First Name:"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/id_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:id="@+id/id_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Gender"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/id_present"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="Present Address:"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/id_permanent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Permanent Address:"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_religion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Religion: "
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+         <EditText
+             android:id="@+id/id_nationality"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:hint="Nationality:"
+             android:textSize="18dp"
+             android:textStyle="bold"
+             />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/id_education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Educational Qualification: "
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/id_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/id_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT BUTTON"
+        android:textSize="17dp"
+        />
+
+
+</LinearLayout>

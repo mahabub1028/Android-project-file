@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the another Activity"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/idback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Back MainActivity"
+       android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Increment the value: 0"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+     <Button
+         android:id="@+id/idcount"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Count+1"
+         android:layout_marginTop="30dp"
+         android:textStyle="bold"/>
+
+   <Button
+       android:id="@+id/id_go"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Let's go Activity3"
+       android:layout_gravity="center"
+       android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
